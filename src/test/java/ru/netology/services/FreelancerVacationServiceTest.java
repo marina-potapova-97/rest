@@ -5,7 +5,6 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 import org.junit.jupiter.params.provider.CsvSource;
-import ru.netology.services.FreelancerVacationService;
 
 public class FreelancerVacationServiceTest {
     @ParameterizedTest
@@ -16,4 +15,3 @@ public class FreelancerVacationServiceTest {
         Assertions.assertEquals(expected, actualCount);
     }
 }
-
